@@ -1,0 +1,15 @@
+<div class="dashboard">
+    <div class="stats-card">
+        <h3>Today's Earnings: <span id="todayCash">$0.00</span></h3>
+        <input type="date" id="dateFilter" onchange="filterHistory()">
+    </div>
+
+    <div id="activeOrders">
+        <div class="order-item">
+            <p>Order #1024 - Pending Pickup</p>
+            <!-- QR code generated for the agent to scan -->
+            <img src="https://api.qrserver.com" alt="Pickup QR">
+            <small>Show this to the Agent for verification</small>
+        </div>
+    </div>
+</div>

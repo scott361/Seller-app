@@ -1,0 +1,11 @@
+:root {
+    --primary: #2563eb; --success: #10b981; --background: #f8fafc;
+    --card-bg: #ffffff; --text-main: #1e293b; --radius: 12px;
+}
+* { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+body { background-color: var(--background); padding: 16px; max-width: 500px; margin: 0 auto; }
+.auth-container, .order-item { background: var(--card-bg); padding: 16px; border-radius: var(--radius); box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+input, button { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0; }
+button { background-color: var(--primary); color: white; border: none; font-weight: 600; }
+.stats-card { background: linear-gradient(135deg, #2563eb, #1d4ed8); color: white; padding: 20px; border-radius: var(--radius); }
+.qr-container { text-align: center; padding: 20px; background: #f1f5f9; border-radius: var(--radius); border: 2px dashed #cbd5e1; }
